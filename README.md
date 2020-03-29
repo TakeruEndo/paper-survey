@@ -11,9 +11,8 @@
 #
 
 ## Rules
-読もうと思っている論文はIssueに上げる
-Projects の Related Worksに論文を読んだかどうかを管理する
-format.mdにしたがって論文の要旨をまとめる
+読もうと思っている論文はIssueに上げる  
+[Projects](https://github.com/TakeruEndo/paper-survey/projects/1)で論文を読んだかどうかを管理する  
 
 ## About Summary Format
 
