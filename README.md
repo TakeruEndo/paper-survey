@@ -1,6 +1,6 @@
 ## paper-survey
+![issue-open](https://img.shields.io/github/issues-raw/TakeruEndo/paper-survey?style=flat-square)
 
-https://img.shields.io/github/issues-raw/TakeruEndo/paper-survey?style=flat-square
 
 機械学習に関する論文をまとめていきます。リポジトリの構成は[shunk031さんのリポジトリ
 ](https://github.com/shunk031/paper-survey)を参考にしています。
