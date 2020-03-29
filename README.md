@@ -39,4 +39,4 @@ categories: CV NLP Others
 ## Example
 [先端技術とメディア表現 1 #FTMA15 ](https://www.slideshare.net/Ochyai/1-ftma15) from [Yoichi Ochiai](https://www.slideshare.net/Ochyai)
 
-
+![FTMA15-1-page-65](https://user-images.githubusercontent.com/40351074/77840589-1d75a780-71c4-11ea-9db6-08b31dff4b03.png)
