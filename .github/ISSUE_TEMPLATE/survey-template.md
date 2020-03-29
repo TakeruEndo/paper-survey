@@ -1,8 +1,8 @@
 ---
-name: Survey template
-about: Describe this issue template's purpose here.
+name: Survey
+about: Summary of paper.
 title: "[year]: title"
-labels: ''
+labels: CV
 assignees: ''
 
 ---
