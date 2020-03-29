@@ -9,13 +9,6 @@ assignees: ''
 
 
 ## 1. どんなもの？
----
-layout: post
-title:  "論文タイトル"
-date:   YYYY-MM-DD
-categories: CV NLP Others
----
-
 
 ## 2. 先行研究と比べてどこがすごいの？
 
