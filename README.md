@@ -1,5 +1,5 @@
 # paper-survey
-![ML-Survey](https://user-images.githubusercontent.com/40351074/77842282-76950980-71cb-11ea-9cbf-3affd6ad9962.png)
+![ML-Survey](https://user-images.githubusercontent.com/40351074/77842400-9b3db100-71cc-11ea-81fa-573cbdab0699.png)
 
 ![issue-open](https://img.shields.io/github/issues-raw/TakeruEndo/paper-survey?style=flat-square)
 ![issue-closed](https://img.shields.io/github/issues-closed-raw/TakeruEndo/paper-survey)
