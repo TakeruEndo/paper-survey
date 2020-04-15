@@ -14,6 +14,14 @@
 読もうと思っている論文はIssueに上げる  
 [Projects](https://github.com/TakeruEndo/paper-survey/projects/1)で論文を読んだかどうかを管理する  
 
+## チェックするサイト
+- [paprewithcode](https://paperswithcode.com/)
+  - [Person Re-Identification](https://paperswithcode.com/task/person-re-identification)
+  - [Object Tracking](https://paperswithcode.com/task/object-tracking)
+  - [Multi-Object Tracking](https://paperswithcode.com/task/multi-object-tracking)
+
+
+
 ## About Summary Format
 
 ```
