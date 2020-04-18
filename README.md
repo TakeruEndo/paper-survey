@@ -15,6 +15,8 @@
 [Projects](https://github.com/TakeruEndo/paper-survey/projects/1)で論文を読んだかどうかを管理する  
 
 ## チェックするサイト
+- [Deep Learning Monitor](https://deeplearn.org/) : トレンドな論文を検索できる
+- [arxiv-sanity]http://www.arxiv-sanity.com/toptwtr) : Twitterで話題の論文が見られる
 - [paprewithcode](https://paperswithcode.com/)
   - [Person Re-Identification](https://paperswithcode.com/task/person-re-identification)
   - [Object Tracking](https://paperswithcode.com/task/object-tracking)
