@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CenterNet
-summary: Centrer Net
+summary: 従来のアンカー方式と違い、キーポイント(センター)を予測することで物体検出を行う
 featured-img: article1
 categories: CV ObjectDetection
 ---
