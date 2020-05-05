@@ -1,12 +1,10 @@
 ---
-layout: post
-title: title
-summary: summary
-featured-img: name
-categories: CV ObjectDetection
+name: Survey
+about: Summary of paper.
+title: "[year]: title"
+labels: CV
+assignees: ''
 ---
-
-
 
 ## 1. どんなもの？
 
