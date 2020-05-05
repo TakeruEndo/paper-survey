@@ -1,11 +1,11 @@
 ---
-name: Survey
-about: Summary of paper.
-title: "[year]: title"
-labels: CV
-assignees: ''
-
+layout: post
+title: title
+summary: 
+featured-img: name
+categories: CV ObjectDetection
 ---
+
 
 
 ## 1. どんなもの？
