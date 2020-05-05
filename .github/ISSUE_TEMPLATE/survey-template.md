@@ -1,27 +1,18 @@
 ---
-name: Survey template
-about: Describe this issue template's purpose here.
+name: Survey
+about: Summary of paper.
 title: "[year]: title"
-labels: ''
+labels: CV
 assignees: ''
 
 ---
 
 
 ## 1. どんなもの？
----
-layout: post
-title:  "論文タイトル"
-date:   YYYY-MM-DD
-categories: CV NLP Others
----
-
 
 ## 2. 先行研究と比べてどこがすごいの？
 
 ## 3. 技術や手法の"キモ"はどこにある？
-
-![Figure 1]({{ site.baseurl }}/assets/img/(cv, nlp, others)/(title)/figure1.png)
 
 ## 4. どうやって有効だと検証した？
 

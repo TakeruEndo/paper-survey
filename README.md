@@ -1,14 +1,28 @@
-## paper-survey
+# paper-survey
+[](
+![ML-Survey](https://user-images.githubusercontent.com/40351074/77842400-9b3db100-71cc-11ea-81fa-573cbdab0699.png)
+)
 ![issue-open](https://img.shields.io/github/issues-raw/TakeruEndo/paper-survey?style=flat-square)
 ![issue-closed](https://img.shields.io/github/issues-closed-raw/TakeruEndo/paper-survey)
 
 機械学習に関する論文をまとめていきます。リポジトリの構成は[shunk031さんのリポジトリ
 ](https://github.com/shunk031/paper-survey)を参考にしています。
 
+#
+
 ## Rules
-読もうと思っている論文はIssueに上げる
-Projects の Related Worksに論文を読んだかどうかを管理する
-format.mdにしたがって論文の要旨をまとめる
+読もうと思っている論文はIssueに上げる  
+[Projects](https://github.com/TakeruEndo/paper-survey/projects/1)で論文を読んだかどうかを管理する  
+
+## チェックするサイト
+- [Deep Learning Monitor](https://deeplearn.org/) : トレンドな論文を検索できる
+- [arxiv-sanity](http://www.arxiv-sanity.com/toptwtr) : Twitterで話題の論文が見られる
+- [paprewithcode](https://paperswithcode.com/)
+  - [Person Re-Identification](https://paperswithcode.com/task/person-re-identification)
+  - [Object Tracking](https://paperswithcode.com/task/object-tracking)
+  - [Multi-Object Tracking](https://paperswithcode.com/task/multi-object-tracking)
+
+
 
 ## About Summary Format
 
