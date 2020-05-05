@@ -4,9 +4,7 @@ about: Summary of paper.
 title: "[year]: title"
 labels: CV
 assignees: ''
-
 ---
-
 
 ## 1. どんなもの？
 
