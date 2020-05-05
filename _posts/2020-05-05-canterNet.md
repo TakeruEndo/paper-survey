@@ -19,6 +19,7 @@ bboxの中心を予測することで効率的に物体検出を行う。オブ�
 
 ## 4. どうやって有効だと検証した？
 COCO test-devを使って検証したところ、他のSOTの手法より高速であることがわかった。
+<img width="682" alt="center-result" src="https://user-images.githubusercontent.com/40351074/77842798-a47d4c80-71d1-11ea-9087-7cdd1d5fd5b2.png">
 
 ## 5. 次に読むべき論文はあるか？
 - [Deep Layer Aggregation](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yu_Deep_Layer_Aggregation_CVPR_2018_paper.pdf)
