@@ -1,7 +1,7 @@
 ---
 layout: post
 title: title
-summary: 
+summary: summary
 featured-img: name
 categories: CV ObjectDetection
 ---
