@@ -4,9 +4,7 @@ title: CenterNet
 summary: Centrer Net
 featured-img: article1
 categories: CV ObjectDetection
-# mathjax: true
 ---
-
 
 ## 1. どんなもの？
 bboxの中心を予測することで効率的に物体検出を行う。オブジェクトのサイズや向きなどのプロパティは画像の特徴から回帰して求める。
