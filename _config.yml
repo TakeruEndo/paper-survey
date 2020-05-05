@@ -1,6 +1,8 @@
 # SITE CONFIGURATION
 title: jooot # your site title
 author: Jow # You :P
+paginate: 5
+paginate_path: "/page:num/"
 
 # SEO PLUGIN
 social:
