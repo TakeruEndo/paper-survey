@@ -1,0 +1,63 @@
+# SITE CONFIGURATION
+title: jooot # your site title
+author: Jow # You :P
+description: > # Meta description of Homepage
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/paper_survey" # the subpath of your site, e.g. /blog
+url: "https://example" # the base hostname & protocol for your site, e.g. http://example.com
+
+# SEO PLUGIN
+social:
+  name: Your Name
+  links:
+    - https://twitter.com/
+    - https://www.facebook.com/
+    - https://www.linkedin.com/
+    - https://plus.google.com/
+    - https://github.com/
+    - https://keybase.io/
+
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Home', link: '/'}
+  - {name: 'About', link: '/about'}
+  - {name: 'Contact', link: '/contact'}
+
+tagline: >
+  Paper Suevey of Machine Learning
+
+hero_img: posts/header1.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+
+email:  test@domain.example # email for form submission
+
+twitter_username: test # replace with your_twitter_username or comment to remove link from footer
+github_username:  TakeruEndo # replace with your_github_username or comment to remove link from footer
+instagram_username: test # replace with your_instagram_username or comment to remove link from footer
+
+# google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
+
+service_worker: true
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge # or pygments or null
+# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
+exclude:
+  - README.md
+  - script
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - gulpfile.js
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
