@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-title: jooot # your site title
+title: Tech Blog  # your site title
 author: Jow # You :P
 paginate: 5
 paginate_path: "/page:num/"
@@ -18,13 +18,13 @@ social:
 
 
 tagline: >
-  Paper Suevey of Machine Learning
+  Paper Survey and Blog of Programing
 
 hero_img: posts/header1.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email:  test@domain.example # email for form submission
 
-twitter_username: test # replace with your_twitter_username or comment to remove link from footer
+twitter_username: taken88825719 # replace with your_twitter_username or comment to remove link from footer
 github_username:  TakeruEndo # replace with your_github_username or comment to remove link from footer
 instagram_username: test # replace with your_instagram_username or comment to remove link from footer
 
