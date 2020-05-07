@@ -1,17 +1,20 @@
+<div class="categriestag">
+  <div class='container'>
+    <div>
+        <h3>Categories Tag</h3>
+        {% for category in site.categories %}
+        <!-- {% capture category_name %}{{ category | first }}{% endcapture %}       -->
+            <a href='#' class="tag">
+              {% if category_name.size %}
+                {{ category_name }}
+              {% endif %}
+            </a>
+        {% endfor %}
+    </div>
+  </div>
+</div>
+
 <footer class="footer">
-  <div class='categories'>
-    <h2>categories</h2>
-    <ul>    
-      {% for category in site.categories %}
-        <li class="category-head">
-          <a href="">
-            <span class="right">{{ category_name }}</span>
-            <span class="right">[{{site.categories[category_name].size}}]</span>
-          </a>
-        {% capture category_name %}{{ category | first }}{% endcapture %}
-      {% endfor %}
-    </ul>    
-  </div>  
   <div class="container">
     <nav class="social">
       <a class="social__link" target="_blank" rel="noopener noreferrer" href="https://github.com/TakeruEndo">

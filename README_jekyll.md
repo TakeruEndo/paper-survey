@@ -34,3 +34,15 @@ $ bundle exec jekyll serve
 
 ## 参考にしたjekyllテンプレート
 http://jekyllthemes.org/themes/sleek/  
+
+## categoryの取得
+```
+{% for category in site.categories %}
+  <li class="category-head">
+    <a href="">
+      <span class="right">{{ category_name }}</span>
+      <span class="right">[{{site.categories[category_name].size}}]</span>
+    </a>
+  {% capture category_name %}{{ category | first }}{% endcapture %}
+{% endfor %}
+```
