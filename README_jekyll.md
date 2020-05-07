@@ -15,5 +15,22 @@ $ jekyll serve
 
 ```
 
+## pagenationの導入
+http://jekyllrb-ja.github.io/docs/pagination/
+`_config.yml`
+```
+plugins:
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "page:num"
+```
+
+```
+$ gem install jekyll-paginate 
+# 起動
+$ bundle exec jekyll serve
+```
+
 ## 参考にしたjekyllテンプレート
 http://jekyllthemes.org/themes/sleek/  

@@ -1,8 +1,13 @@
 # SITE CONFIGURATION
 title: Tech Blog  # your site title
 author: Jow # You :P
-paginate: 5
-paginate_path: "/page:num/"
+
+
+plugins:
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "page:num"
 
 # SEO PLUGIN
 social:
@@ -14,8 +19,6 @@ social:
     - https://plus.google.com/
     - https://github.com/
     - https://keybase.io/
-
-
 
 tagline: >
   Paper Survey and Blog of Programing

@@ -27,7 +27,10 @@ const uglify = require( "gulp-uglify" );
 const critical = require( "critical" );
 const sw = require( "sw-precache" );
 
+// // Image Generation
+// const responsive = require( "gulp-responsive" );
 const rename = require( "gulp-rename" );
+// const imagemin = require( "gulp-imagemin" );
 
 const src = {
   css: "_sass/jekyll-sleek.scss",
@@ -126,6 +129,56 @@ gulp.task( "sw", () => {
     staticFileGlobs: [ distDir + "/**/*.{js,html,css,png,jpg,svg}" ],
     stripPrefix: distDir
   } );
+} );
+
+// Images
+gulp.task( "img", () => {
+  return gulp.src( "_img/posts/*.{png,jpg}" )
+    .pipe( responsive( {
+        "*": [ // For all the images in the posts folder
+          {
+            width: 230,
+            rename: { suffix: "_placehold" }
+          },
+          { // thubmnail
+            width: 535,
+            rename: { suffix: "_thumb" }
+          },
+          { // thumbnail @2x
+            width: 535 * 2,
+            rename: { suffix: "_thumb@2x" }
+          },
+          {
+            width: 575,
+            rename: { suffix: "_xs" }
+          },
+          {
+            width: 767,
+            rename: { suffix: "_sm" }
+          },
+          {
+            width: 991,
+            rename: { suffix: "_md" }
+          },
+          {
+            width: 1999,
+            rename: { suffix: "_lg" }
+          },
+          { // max-width hero
+            width: 1920
+          }
+        ]
+      },
+      {
+        quality: 70,
+        progressive: true,
+        withMetadata: false,
+        errorOnEnlargement: false,
+        errorOnUnusedConfig: false,
+        silent: true
+      } ) )
+      .pipe( imagemin() )
+      .pipe( gulp.dest( "assets/img/posts/" ) );
 } );
 
 // Build the Jekyll Site
