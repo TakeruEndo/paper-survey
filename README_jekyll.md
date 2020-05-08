@@ -35,6 +35,23 @@ $ bundle exec jekyll serve
 ## 参考にしたjekyllテンプレート
 http://jekyllthemes.org/themes/sleek/  
 
+
+## 画像サイズ変更
+### インストール
+https://www.xquartz.org/
+```
+$ brew tap brewsci/science
+$ brew install vips
+```
+
+### node
+v14.1.0
+
+### gulp-responsive
+```
+   "gulp-responsive": "^3.0.1",
+```
+
 ## categoryの取得
 ```
 {% for category in site.categories %}
