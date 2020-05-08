@@ -2,7 +2,7 @@
 layout: post
 title: Tracking Objects as Points
 summary: CenterNetの技術をトラッキングに適応させた
-featured-img: article1
+featured-img: detection
 categories: CV ObjectTracking
 ---
 

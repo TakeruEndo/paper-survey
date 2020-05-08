@@ -6,7 +6,7 @@ author: Jow # You :P
 plugins:
   - jekyll-paginate
 
-paginate: 6
+paginate: 9
 paginate_path: "page:num"
 
 # SEO PLUGIN

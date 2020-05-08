@@ -2,7 +2,7 @@
 layout: post
 title: CenterNet Keypoint Triplets for Object Detection
 summary: corner + centerのキーポイントで予測
-featured-img: article1
+featured-img: detection
 categories: CV ObjectDetection
 ---
 
