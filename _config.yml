@@ -9,6 +9,8 @@ plugins:
 paginate: 9
 paginate_path: "page:num"
 
+markdown: kramdown
+
 # SEO PLUGIN
 social:
   name: Your Name
