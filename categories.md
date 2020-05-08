@@ -6,7 +6,6 @@ permalink: /categories/
 
 <div>
 {% for category in site.categories %}
-  <h4><a href="">{{site.categories[category_name].size}}</a></h4>
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>

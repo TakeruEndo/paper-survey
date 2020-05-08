@@ -1,18 +1,18 @@
 <div class="categriestag">
   <div class='container'>
     <div>
-        <h3>Categories Tag</h3>
+      <h3>Categories Tag</h3>
+      {% assign categories = post.categories %}
         {% for category in site.categories %}
-        <!-- {% capture category_name %}{{ category | first }}{% endcapture %}       -->
-            <a href='#' class="tag">
-              {% if category_name.size %}
-                {{ category_name }}
-              {% endif %}
-            </a>
-        {% endfor %}
+          <!-- {% capture category_name %}{{ category | first }}{% endcapture %}       -->         
+          <a href='{{site.baseurl}}/categories/#{{category_name}}' class="tag">
+            {{ category_name }}
+          </a>         
+        {% endfor %}         
     </div>
   </div>
 </div>
+
 
 <footer class="footer">
   <div class="container">
