@@ -8,10 +8,23 @@ categories: kaggle pandas
 
 # Dataframe操作
 
+## 欠損値処理
+グループごとの平均で埋める
+```
+data['y'] = data['y'].fillna(data.groupby('group')['y'].transform('mean'))
+```
+
 ## 値の置換
+### 文字列の長さに変換
 ```
-df['y'].apply(lambda x : 0 if x < 0 else x)
+data['tags'].str.len()
 ```
+
+### 分割した要素数に変換
+```
+data['tags'].str.split('|').str.len()
+```
+
 
 ##　条件を満たす行を置換する
 ```
@@ -25,7 +38,7 @@ train.loc[(train['batch'] == 7) &  (train['signal'] < -1.8), 'signal'] = -1.8
 ```
 
 # エンコード
-## ワンホットエンコード(特定の文字を含むか否か)
+## ワンホット特徴量作成
 ```
 data = train['column'].map(lambda x: 1 if '１' in str(x) else 0)
 ```
@@ -41,6 +54,15 @@ for c in categorical_features:
     le = LabelEncoder()
     le.fit(data[c])
     data[c] = le.transform(data[c])
+```
+
+## カウントエンコーディング
+```
+def makeCountFull(data, categorical_features=None):
+    add_cols = categorical_features
+    for add_col in add_cols:
+        data[add_col + '_countall'] = data[add_col].map(data[add_col].value_counts(dropna=False))
+    return data
 ```
 
 # 数値処理
