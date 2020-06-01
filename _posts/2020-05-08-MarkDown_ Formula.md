@@ -92,5 +92,14 @@ $$
 \end{align*}
 $$
 
+## 様々な数式
+```
+# 対数オッズ線型表現
+logit(p=(y=1|x))=w_0x_0+w_1x_1+\cdots+w_mx_m = \sum_{i=0}^{m}w_ix_{i} = w^{\mathrm{T}}x
+
+```
+
+
+
 ## 参考記事
 - [Qiitaの数式チートシート](https://qiita.com/PlanetMeron/items/63ac58898541cbe81ada)
