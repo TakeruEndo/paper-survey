@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Towards Real-Time Multi-Object Tracking
-summary: 物体検出+トラッキングを行うワンショットアーキテクチャー(JDE)
+title: Camouflaged Object Detection 
+summary: 擬態する生物を検出しようとする試み
 featured-img: camouflaged
 categories: CV ObjectDetection COD
 ---
