@@ -7,6 +7,8 @@ categories: Markdown
 mathjax: True
 ---
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 ## 数式の記述
 `mathjax: True`を設定する
 
