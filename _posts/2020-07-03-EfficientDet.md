@@ -23,7 +23,7 @@ categories: CV ObjectDetection
 ## 詳細
 SlideShareで公開しています.
 
-https://www.slideshare.net/secret/BiiTV6ai5Ji2uX
+https://www.slideshare.net/secret/MZHK4aoL2DmDwi
 
 
 ## 論文情報
