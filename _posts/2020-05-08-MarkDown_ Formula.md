@@ -10,7 +10,6 @@ mathjax: True
 ## 数式の記述
 `mathjax: True`を設定する
 
-
 ```
 $$
 \begin{align*}
